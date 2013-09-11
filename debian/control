@@ -1,0 +1,14 @@
+Source: levitas-memstorage
+Section: utils
+Priority: optional
+Maintainer: Tobias Weber <tobi-weber@gmx.de>
+Build-Depends: debhelper (>= 7), python-epydoc
+X-Python-Version: >= 2.6
+Standards-Version: 3.8.3
+
+Package: levitas-memstorage
+Architecture: all
+Depends: ${python:Depends}, levitas
+Suggests:
+Provides:
+Description: Levitas memstorage server and client
